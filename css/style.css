@@ -1,0 +1,69 @@
+/* свои стили поверх Bootstrap — лаб. работа №2, Павлова Ю.Р. */
+
+/* цвет навбара — тёмно-фиолетовый */
+.navbar-custom {
+    background-color: #4a148c !important;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #e1bee7 !important;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #fff !important;
+}
+
+.navbar-custom .nav-link.active {
+    color: #fff !important;
+    font-weight: 600;
+    border-bottom: 2px solid #26a69a;
+}
+
+/* акценты — цвет морской волны */
+.btn-accent {
+    background-color: #26a69a;
+    border-color: #26a69a;
+    color: #fff;
+}
+
+.btn-accent:hover {
+    background-color: #00897b;
+    border-color: #00897b;
+    color: #fff;
+}
+
+.text-accent {
+    color: #26a69a !important;
+}
+
+/* карточки постов */
+.post-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.post-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 24px rgba(74, 20, 140, 0.25);
+}
+
+/* формы: голубая рамка при фокусе */
+.form-floating > .form-control:focus,
+.form-floating > .form-select:focus {
+    border-color: #42a5f5;
+    box-shadow: 0 0 0 0.2rem rgba(66, 165, 245, 0.25);
+}
+
+/* приветственный блок */
+.hero-welcome {
+    background: linear-gradient(135deg, #4a148c 0%, #26a69a 100%);
+    border-radius: 1rem;
+    color: #fff;
+}
+
+/* футер */
+.site-footer {
+    background-color: #f3e5f5;
+    border-top: 1px solid #ce93d8;
+}
