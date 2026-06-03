@@ -1,0 +1,13 @@
+# локальные инструменты Claude Code
+.claude/
+
+# системные файлы ОС
+.DS_Store
+Thumbs.db
+
+# настройки редакторов
+.vscode/
+.idea/
+
+# логи
+*.log
