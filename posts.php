@@ -7,7 +7,7 @@ $active_page = 'posts';
 include 'includes/header.php';
 ?>
 
-<h1 class="h3 mb-4 text-accent"><i class="bi bi-collection me-2"></i>Мои посты</h1>
+<h1 class="h3 mb-4 text-accent">Мои посты</h1>
 
 <div class="row g-4 mb-4">
     <?php
@@ -15,7 +15,7 @@ include 'includes/header.php';
     ?>
     <div class="col-md-6" data-aos="fade-up">
         <div class="card post-card h-100">
-            <img src="https://picsum.photos/400/200?random=101" class="card-img-top" alt="">
+            <img src="images/photo_2026-06-03_10-16-37.jpg" class="card-img-top" alt="" style="height: 200px; object-fit: cover;">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $post_title; ?></h5>
                 <p class="card-text small text-muted"><?php echo htmlspecialchars('Собралась с силами и открыла учебник по веб-разработке.'); ?></p>
@@ -26,7 +26,7 @@ include 'includes/header.php';
     <?php $post_title = 'Как я настраивала OpenServer'; ?>
     <div class="col-md-6" data-aos="fade-up" data-aos-delay="50">
         <div class="card post-card h-100">
-            <img src="https://picsum.photos/400/200?random=102" class="card-img-top" alt="">
+            <img src="images/photo_2026-06-03_10-16-48.jpg" class="card-img-top" alt="" style="height: 200px; object-fit: cover;">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $post_title; ?></h5>
                 <p class="card-text small text-muted"><?php echo htmlspecialchars('Пару раз перезапускала Apache, пока всё заработало.'); ?></p>
@@ -37,7 +37,7 @@ include 'includes/header.php';
     <?php $post_title = 'CSS: когда margin схлопывается'; ?>
     <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="card post-card h-100">
-            <img src="https://picsum.photos/400/200?random=103" class="card-img-top" alt="">
+            <img src="images/photo_2026-06-03_10-16-53.jpg" class="card-img-top" alt="" style="height: 200px; object-fit: cover;">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $post_title; ?></h5>
                 <p class="card-text small text-muted"><?php echo htmlspecialchars('Запуталась, потом прочитала статью — стало понятнее.'); ?></p>
@@ -48,7 +48,7 @@ include 'includes/header.php';
     <?php $post_title = 'Первый раз подключила Bootstrap по CDN'; ?>
     <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
         <div class="card post-card h-100">
-            <img src="https://picsum.photos/400/200?random=104" class="card-img-top" alt="">
+            <img src="images/photo_2026-06-03_10-16-56.jpg" class="card-img-top" alt="" style="height: 200px; object-fit: cover;">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $post_title; ?></h5>
                 <p class="card-text small text-muted"><?php echo htmlspecialchars('Быстро, но интернет на паре иногда подводит.'); ?></p>
@@ -59,7 +59,7 @@ include 'includes/header.php';
     <?php $post_title = 'Заметка: не забывать закрывать теги'; ?>
     <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="card post-card h-100">
-            <img src="https://picsum.photos/400/200?random=105" class="card-img-top" alt="">
+            <img src="images/photo_2026-06-03_10-17-00.jpg" class="card-img-top" alt="" style="height: 200px; object-fit: cover;">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $post_title; ?></h5>
                 <p class="card-text small text-muted"><?php echo htmlspecialchars('Валидатор ругался на одну лишнюю кавычку — искала долго.'); ?></p>
@@ -70,7 +70,7 @@ include 'includes/header.php';
     <?php $post_title = 'Старый черновик: идеи для портфолио'; ?>
     <div class="col-md-6" data-aos="fade-up" data-aos-delay="250">
         <div class="card post-card h-100">
-            <img src="https://picsum.photos/400/200?random=106" class="card-img-top" alt="">
+            <img src="images/photo_2026-06-03_10-17-04.jpg" class="card-img-top" alt="" style="height: 200px; object-fit: cover;">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $post_title; ?></h5>
                 <p class="card-text small text-muted"><?php echo htmlspecialchars('Пока только список, но когда-нибудь сделаю красиво.'); ?></p>

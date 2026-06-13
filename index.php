@@ -20,20 +20,13 @@ if ($is_logged_in == false) {
             <div class="col-lg-8">
                 <h1 class="display-5 fw-bold mb-3">Добро пожаловать на сайт Павловой Ю. Р.</h1>
                 <p class="lead mb-4 opacity-90">
-                    Это моя учебная визитка. Здесь будут мои посты, профиль и формы для входа и регистрации.
+             
                     Пока всё статическое, обработка на PHP и база данных появятся позже.
                 </p>
                 <div class="d-flex flex-wrap gap-2">
-                    <a href="login.php" class="btn btn-light btn-lg">
-                        <i class="bi bi-person-circle me-1"></i> Войти
-                    </a>
-                    <a href="registration.php" class="btn btn-accent btn-lg">
-                        <i class="bi bi-person-plus me-1"></i> Регистрация
-                    </a>
+                    <a href="login.php" class="btn btn-light btn-lg">Войти</a>
+                    <a href="registration.php" class="btn btn-accent btn-lg">Регистрация</a>
                 </div>
-            </div>
-            <div class="col-lg-4 text-center d-none d-lg-block">
-                <i class="bi bi-journal-richtext" style="font-size: 6rem; opacity: 0.35;"></i>
             </div>
         </div>
     </section>
@@ -41,7 +34,7 @@ if ($is_logged_in == false) {
 } else {
     // --- залогинен: форма нового поста и лента ---
     ?>
-    <h2 class="mb-4 text-accent"><i class="bi bi-pencil-square me-2"></i>Добавить новый пост</h2>
+    <h2 class="mb-4 text-accent">Добавить новый пост</h2>
 
     <form class="card shadow-sm border-0 mb-5 p-4" method="post" action="index.php" enctype="multipart/form-data">
         <p class="text-muted small mb-3">Форма пока ни на что не отправляется — заглушка для следующей лабы.</p>
